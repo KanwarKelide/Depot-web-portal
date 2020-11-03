@@ -695,6 +695,7 @@ class arrival(models.Model):
     Driver_id                = models.CharField(max_length=255, choices=DRIVER_CHOICES,  default='SOME STRING')
     Scheduled_departure_time = models.CharField(max_length=100)
     Actual_departure_time    = models.CharField(max_length=100)
+    Actual_departure_time    = models.CharField(max_length=100)
     Odometer_start_reading   = models.CharField(max_length=100)
     SOC_at_departure         = models.CharField(max_length=100)
 
