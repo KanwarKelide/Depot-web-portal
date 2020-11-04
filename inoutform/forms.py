@@ -23,6 +23,7 @@ class ContactForm(forms.Form):
     Route_no                 = forms.ChoiceField(choices=[('a', 'a'), ('b', 'b')])
     Scheduled_departure_time = forms.CharField()
     Actual_departure_time    = forms.CharField()
+    Actual_departure_time    = forms.CharField()
     Odometer_start_reading   = forms.CharField()
     SOC_at_departure         = forms.CharField()
     Driver_id                = forms.ChoiceField(choices=[('1', '1'), ('2', '2')])
