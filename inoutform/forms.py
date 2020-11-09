@@ -1,5 +1,5 @@
 from django import forms
-from .models import arrival
+#from .models import arrival
 from .models import get_myp_route_strings
 from .models import get_jbs_route_strings
 from .models import get_myp_vehicle_strings
